@@ -44,17 +44,17 @@
                 }
                 else if (guess > randomNumber)
                 {
-                    Console.WriteLine(" Your guess is too high idiot.\n");
+                    Console.WriteLine(" Your guess is too high.\n");
                 }
                 else if (guess < randomNumber)
                 {
-                    Console.WriteLine(" Your guess is too low aSshole.\n");
+                    Console.WriteLine(" Your guess is too low.\n");
                 }
                 else
                 {
                     Console.WriteLine("----------------------------------------------------------------");
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine(" Congratulations, you MoFo,... you guessed the number!");
+                    Console.WriteLine("          Congratulations,... you guessed the number!");
                     Console.ResetColor();
                     Console.WriteLine("----------------------------------------------------------------");
                     Console.WriteLine("----------------------------------------------------------------");
@@ -66,14 +66,14 @@
                 {
                     Console.WriteLine("----------------------------------------------------------------");
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Dumbass, you've used all {MaxAttempts} attempts. The correct number was {randomNumber}.");
+                    Console.WriteLine($"Sorry, you've used all {MaxAttempts} attempts. The correct number was {randomNumber}.");
                     Console.ResetColor();
                     Console.WriteLine("----------------------------------------------------------------");
+                    Console.WriteLine("                      Copyright by ILBA24");
+                    Console.WriteLine("----------------------------------------------------------------");
+                    Console.ReadKey();  
                 }
             }
-
-
-            Console.ReadKey();  
         }
     }
 }
