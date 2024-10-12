@@ -48,7 +48,7 @@
                 }
                 else if (guess < randomNumber)
                 {
-                    Console.WriteLine(" Your guess is too low aSshole.\n");
+                    Console.WriteLine(" Your guess is too low asshole.\n");
                 }
                 else
                 {
