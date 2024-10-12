@@ -1,6 +1,6 @@
 ﻿namespace GuessTheNUmber
 {
-    class Program
+    class Program //This is a test from Andreas
     {
         static void Main(string[] args)
         {                                         // Title
@@ -48,7 +48,7 @@
                 }
                 else if (guess < randomNumber)
                 {
-                    Console.WriteLine(" Your guess is too low asshole.\n");
+                    Console.WriteLine(" Your guess is too low aSshole.\n");
                 }
                 else
                 {
